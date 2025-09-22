@@ -1,0 +1,6 @@
+.next {
+  right: calc(50% - 43px);
+}
+.prev {
+  left: calc(50% - 43px);
+}
