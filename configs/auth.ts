@@ -1,7 +1,7 @@
 import {AuthOptions, User} from 'next-auth';
 import GoogleProvider from 'next-auth/providers/google';
 import FBProvider from 'next-auth/providers/facebook';
-import TwitterProvider from 'next-auth/providers/twitch';
+import TwitterProvider from 'next-auth/providers/twitter';
 import Credentials from 'next-auth/providers/credentials';
 import {compareSync, hashSync} from 'bcrypt';
 import {SingUpValues} from '@/types/form-types';
